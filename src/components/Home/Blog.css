@@ -1,0 +1,23 @@
+.blog-container{
+    border-bottom: 2px solid #ededed;
+    cursor: pointer;
+    padding: 10px;
+    margin: 7px;
+    display: flex;
+    flex-direction: row;
+    height: 220px;
+    color: rgb(255, 255, 255);
+}
+.resize{
+    height: 140px;
+    width: 200px;
+    border-radius: 5px;
+}
+.info{
+    width: 800px;
+}
+.small{
+    font-size: 10px;
+    bottom: 5px;
+    color: rgb(255, 255, 255);
+}

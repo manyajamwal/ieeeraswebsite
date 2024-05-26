@@ -1,0 +1,45 @@
+
+  .projects-header {
+	text-align: center;
+  }
+  
+  .section-title {
+	color: white;
+  }
+  
+  .all-projects {
+	display: grid;
+	grid-template-columns: 1fr;
+	gap: 20px;
+  }
+  
+  .project-item {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 20px;
+
+  }
+  
+  .project-box {
+	border-radius: 40px;
+	padding: 40px; /* Increase padding to increase height */
+	background-color:#432e5da1;
+	color: white;
+	margin-bottom: 20px;
+	max-width: 80vw;
+	height:auto;
+	line-height: 1.5; /* Adjust line height to ensure proper spacing */
+	margin-left: auto; /* Align box to center */
+	margin-right: auto; /* Align box to center */
+  }
+  
+  .project-img img {
+	width: 100%;
+	border-radius: 10px;
+  }
+  /* Events.css */
+
+.projects-body {
+	padding-bottom: 60px; /* Adjust the value as needed */
+  }
+  

@@ -1,0 +1,54 @@
+.contact-container {
+    max-width: 45vw; /* Adjust container width as needed */
+    
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 10px; /* Round corners */
+    border: 2px solid #9b30ff; /* Bright purple border */
+    box-shadow: 0 0 10px rgba(155, 48, 255, 0.5); /* 3D effect */
+    margin-bottom: 50px;
+  }
+  
+  .contact-container .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .contact-container label {
+    text-align: left;
+    display: block;
+    color: #9b30ff; /* Bright purple color */
+    font-size: larger;
+    font-weight: 500;
+  }
+  
+  .contact-container input[type="text"],
+  .contact-container input[type="email"],
+  .contact-container textarea {
+    width: 100%;
+    padding: 5px 0; /* Adjust vertical padding */
+    border: none;
+    border-bottom: 2px solid #9b30ff; /* Bottom border only */
+    outline: none; /* Remove default input focus styles */
+    background-color: transparent; /* Transparent background */
+  }
+  
+  .contact-container input[type="text"]:focus,
+  .contact-container input[type="email"]:focus,
+  .contact-container textarea:focus {
+    border-bottom-color: #7a1bbb; /* Darker shade of purple on focus */
+  }
+  
+  .contact-container input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #9b30ff; /* Bright purple background */
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .contact-container input[type="submit"]:hover {
+    background-color: #7a1bbb; /* Darker shade of purple on hover */
+  }
+  
